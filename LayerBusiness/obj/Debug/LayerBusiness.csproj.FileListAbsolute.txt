@@ -1,0 +1,8 @@
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\bin\Debug\LayerBusiness.dll
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\bin\Debug\LayerBusiness.pdb
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\bin\Debug\LayerData.dll
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\bin\Debug\LayerData.pdb
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\obj\Debug\LayerBusiness.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\obj\Debug\LayerBusiness.dll
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerBusiness\obj\Debug\LayerBusiness.pdb

@@ -1,0 +1,6 @@
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerData\bin\Debug\LayerData.dll
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerData\bin\Debug\LayerData.pdb
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerData\obj\Debug\LayerData.csprojResolveAssemblyReference.cache
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerData\obj\Debug\LayerData.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerData\obj\Debug\LayerData.dll
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerData\obj\Debug\LayerData.pdb
