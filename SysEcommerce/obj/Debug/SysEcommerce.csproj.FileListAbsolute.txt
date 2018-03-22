@@ -1,7 +1,3 @@
-C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.csprojResolveAssemblyReference.cache
-C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.Properties.Resources.resources
-C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.csproj.GenerateResource.Cache
-C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.csproj.CoreCompileInputs.cache
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\SysEcommerce.exe.config
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\SysEcommerce.exe
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\SysEcommerce.pdb
@@ -11,5 +7,9 @@ C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\LayerData.dll
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\LayerPresentation.pdb
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\LayerBusiness.pdb
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\bin\Debug\LayerData.pdb
+C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.csprojResolveAssemblyReference.cache
+C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.Properties.Resources.resources
+C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.csproj.GenerateResource.Cache
+C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.csproj.CoreCompileInputs.cache
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.exe
 C:\Users\rodri\Source\Repos\SysEcommerce\SysEcommerce\obj\Debug\SysEcommerce.pdb

@@ -34,7 +34,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.cckDelete = new System.Windows.Forms.CheckBox();
             this.dataList = new System.Windows.Forms.DataGridView();
-            this.Delete = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnPrintout = new System.Windows.Forms.Button();
@@ -55,6 +54,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.errorIcon = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttMessage = new System.Windows.Forms.ToolTip(this.components);
+            this.Delete = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataList)).BeginInit();
@@ -110,6 +110,7 @@
             this.cckDelete.TabIndex = 7;
             this.cckDelete.Text = "Delete";
             this.cckDelete.UseVisualStyleBackColor = true;
+            this.cckDelete.CheckedChanged += new System.EventHandler(this.cckDelete_CheckedChanged);
             // 
             // dataList
             // 
@@ -126,14 +127,8 @@
             this.dataList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataList.Size = new System.Drawing.Size(1069, 200);
             this.dataList.TabIndex = 6;
+            this.dataList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataList_CellContentClick);
             this.dataList.DoubleClick += new System.EventHandler(this.dataList_DoubleClick);
-            // 
-            // Delete
-            // 
-            this.Delete.HeaderText = "Delete";
-            this.Delete.Name = "Delete";
-            this.Delete.ReadOnly = true;
-            this.Delete.Width = 200;
             // 
             // lblTotal
             // 
@@ -151,6 +146,7 @@
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnPrintout
             // 
@@ -242,10 +238,11 @@
             // 
             this.btnCancel.Location = new System.Drawing.Point(395, 268);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(90, 43);
+            this.btnCancel.Size = new System.Drawing.Size(106, 43);
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
@@ -316,6 +313,15 @@
             // 
             this.ttMessage.IsBalloon = true;
             // 
+            // Delete
+            // 
+            this.Delete.HeaderText = "Delete";
+            this.Delete.Name = "Delete";
+            this.Delete.ReadOnly = true;
+            this.Delete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Delete.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Delete.Width = 200;
+            // 
             // fmrCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -370,6 +376,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ErrorProvider errorIcon;
         private System.Windows.Forms.ToolTip ttMessage;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Delete;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Delete;
     }
 }

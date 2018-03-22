@@ -64,7 +64,7 @@ namespace LayerData
                 SqlParameter sqlParameterDescription = new SqlParameter();
                 sqlParameterDescription.ParameterName = "@description";
                 sqlParameterDescription.SqlDbType = SqlDbType.VarChar;
-                sqlParameterDescription.Size = 50;
+                sqlParameterDescription.Size = 100;
                 sqlParameterDescription.Value = category.description;
                 sqlCommand.Parameters.Add(sqlParameterDescription);
 
@@ -113,7 +113,7 @@ namespace LayerData
                 SqlParameter sqlParameterDescription = new SqlParameter();
                 sqlParameterDescription.ParameterName = "@description";
                 sqlParameterDescription.SqlDbType = SqlDbType.VarChar;
-                sqlParameterDescription.Size = 50;
+                sqlParameterDescription.Size = 256;
                 sqlParameterDescription.Value = category.description;
                 sqlCommand.Parameters.Add(sqlParameterDescription);
 

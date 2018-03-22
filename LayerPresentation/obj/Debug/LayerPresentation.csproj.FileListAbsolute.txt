@@ -1,12 +1,12 @@
-C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.csprojResolveAssemblyReference.cache
-C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.fmrCategory.resources
-C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.csproj.GenerateResource.Cache
-C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.csproj.CoreCompileInputs.cache
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\bin\Debug\LayerPresentation.dll
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\bin\Debug\LayerPresentation.pdb
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\bin\Debug\LayerBusiness.dll
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\bin\Debug\LayerData.dll
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\bin\Debug\LayerBusiness.pdb
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\bin\Debug\LayerData.pdb
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.csprojResolveAssemblyReference.cache
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.fmrCategory.resources
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.csproj.GenerateResource.Cache
+C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.csproj.CoreCompileInputs.cache
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.dll
 C:\Users\rodri\Source\Repos\SysEcommerce\LayerPresentation\obj\Debug\LayerPresentation.pdb

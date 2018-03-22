@@ -156,7 +156,7 @@ namespace LayerPresentation
                     this.isEdit = false;
                     this.ButtonsEnable();
                     this.Clear();
-                    this.Show();
+                    this.ShowData();
 
                 }
             }catch(Exception ex)
@@ -184,6 +184,72 @@ namespace LayerPresentation
                 this.isEdit = true;
                 this.ButtonsEnable();
                 this.Enable(true);
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.isNew = false;
+            this.isEdit = false;
+            this.ButtonsEnable();
+            this.Enable(false);
+            this.Clear();
+        }
+
+        private void cckDelete_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cckDelete.Checked)
+            {
+                this.dataList.Columns[0].Visible = true;
+
+            }
+            else
+            {
+                this.dataList.Columns[0].Visible = false;
+            }
+        }
+
+        private void dataList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(e.ColumnIndex == dataList.Columns["Delete"].Index)
+            {
+                DataGridViewCheckBoxCell checkDelete = (DataGridViewCheckBoxCell) dataList.Rows[e.RowIndex].Cells["Delete"];
+                checkDelete.Value = !Convert.ToBoolean(checkDelete.Value);
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult option;
+                option = MessageBox.Show("Do you really want to erase the data?Do you really want to erase the data?", "System Ecommerce", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if(option == DialogResult.OK)
+                {
+                    string code;
+                    string resp;
+
+                    foreach(DataGridViewRow row in dataList.Rows)
+                    {
+                        if (Convert.ToBoolean(row.Cells[0].Value))
+                        {
+                            code = Convert.ToString(row.Cells[1].Value);
+                            resp = NCategory.Delete(Convert.ToInt32(code));
+                            if (resp.Equals("OK"))
+                            {
+                                this.MessageOk("Registration successfully deleted");
+                            }
+                            else
+                            {
+                                this.MessageError(resp);
+                            }
+                        }
+                    }
+                    this.ShowData();
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
             }
         }
     }
